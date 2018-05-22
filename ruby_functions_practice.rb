@@ -55,3 +55,9 @@ end
 def volume_of_cube(length)
   return length ** 3
 end
+
+def volume_of_sphere(radius)
+  pi = 3.1415
+  volume = ((4 * pi) * (radius ** 3)) / 3
+  return volume.round()
+end
