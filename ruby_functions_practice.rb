@@ -61,3 +61,8 @@ def volume_of_sphere(radius)
   volume = ((4 * pi) * (radius ** 3)) / 3
   return volume.round()
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+  celsius = (fahrenheit.to_f() - 32) * 5 / 9
+  return celsius.round(2)
+end
