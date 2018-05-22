@@ -24,7 +24,6 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_divide()
-    skip
     divide_result = divide( 10, 2 )
     assert_equal( 5, divide_result )
   end
