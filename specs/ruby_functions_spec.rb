@@ -14,13 +14,11 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_subtract()
-    skip
     subtract_result = subtract( 10, 5 )
     assert_equal( 5, subtract_result )
   end
 
   def test_multiply()
-    skip
     multiply_result = multiply( 4, 2 )
     assert_equal( 8, multiply_result )
   end
