@@ -52,13 +52,11 @@ class Functions_Practice < MiniTest::Test
   end
 
   def test_number_to_full_name__month_3()
-    skip
     result = number_to_full_month_name( 3 )
     assert_equal( "March", result )
   end
 
   def test_number_to_full_name__month_9()
-    skip
     result = number_to_full_month_name( 9 )
     assert_equal( "September", result )
   end
