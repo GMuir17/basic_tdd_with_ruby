@@ -19,7 +19,7 @@ def divide(number_1, number_2)
 end
 
 def length_of_string(string)
-  return string.length
+  return string.length()
 end
 
 def join_string(string_1, string_2)
